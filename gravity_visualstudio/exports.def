@@ -58,11 +58,16 @@ EXPORTS
 	gravity_iscore_class
 	gravity_core_free
 	gravity_core_identifiers
+	gravity_core_class_from_name
+	gravity_core_init
 
 	convert_value2int
 	convert_value2float
 	convert_value2bool
 	convert_value2string
+	
+	computed_property_create
+	computed_property_free
 
 ;;;	gravity_hash.h
 	
@@ -163,6 +168,14 @@ EXPORTS
 	gravity_value_xdata
 ;	gravity_value_blacken
 	gravity_value_size
+	
+	gravity_value_from_bool
+	gravity_value_from_error
+	gravity_value_from_float
+	gravity_value_from_int
+	gravity_value_from_null
+	gravity_value_from_object
+	gravity_value_from_undefined
 	
 	gravity_object_serialize
 	gravity_object_deserialize
