@@ -213,6 +213,13 @@ EXPORTS
 	gravity_hash_keyvaluefree
 	gravity_hash_keyfree
 	gravity_hash_valuefree
+	
+	gravity_closure_blacken
+	gravity_closure_dec_refcount
+	gravity_closure_inc_refcount
+	gravity_closure_free
+	gravity_closure_size
+	gravity_closure_new
 
 ;;;	gravity_debug.h
 
